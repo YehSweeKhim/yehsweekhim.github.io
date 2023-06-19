@@ -22,7 +22,7 @@ const config = {
   projectName: 'yehsweekhim.github.io', // Usually your repo name.
   deploymentBranch: 'deployment',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -82,7 +82,13 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs'
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs/intro',
+              },
+            ],
           },
           {
             title: 'Community',
