@@ -1,5 +1,6 @@
 ---
 id: installation-and-guide
+slug: /
 sidebar_position: 1
 ---
 
